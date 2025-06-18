@@ -132,7 +132,9 @@ function Find-ClaudeExecutable {
         "C:\Users\$username\AppData\Local\Programs\Claude\claude.exe",
         "C:\Users\$username\AppData\Local\Programs\Claude\Claude.exe",
         "C:\Program Files\Claude\claude.exe",
-        "C:\Program Files\Claude\Claude.exe"
+        "C:\Program Files\Claude\Claude.exe",
+        "C:\ProgramData\$username\AnthropicClaude\claude.exe",
+        "C:\ProgramData\$username\AnthropicClaude\Claude.exe"
     )
     
     # Check for versioned dirs
